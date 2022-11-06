@@ -29,7 +29,6 @@ const NAVITEMS = [
 		name: 'Generator',
 		option: [
 			'Colors',
-			'ColorConvertor',
 			'ColorSuggestion',
 			'BackgroundGradient',
 			'BackgroundImage',
