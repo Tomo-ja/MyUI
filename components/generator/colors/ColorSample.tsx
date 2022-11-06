@@ -14,7 +14,7 @@ const ColorSample = () => {
 		<StyledColorSample>
 			{COLORS.map(color => (
 				<div key={color.kind}>
-					<h3>{color.kind}</h3>
+					<h2>{color.kind}</h2>
 					{color.code.map((code, index) => (
 						<p 
 							key={code} 

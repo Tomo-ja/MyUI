@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faClone } from '@fortawesome/free-regular-svg-icons'
 import StyledConvertor from './converter.styles'
 
 
@@ -62,7 +64,27 @@ const Convertor = () => {
 
 	return (
 		<StyledConvertor>
-
+			<div className='option'>
+				<div className='option__item'>
+					<p>HEX</p>
+					<input type="text" />
+					<FontAwesomeIcon icon={faClone} size='lg' color='#8c8c8c'/>
+				</div>
+				<div className='option__item'>
+					<p>HSL</p>
+					<input type="text" />
+					<FontAwesomeIcon icon={faClone} size='lg' color='#8c8c8c'/>
+				</div>
+				<div className='option__item'>
+					<p>RGB</p>
+					<input type="text" />
+					<FontAwesomeIcon icon={faClone} size='lg' color='#8c8c8c'/>
+				</div>
+			</div>
+			<div className='preview'>
+				<h2>Preview</h2>
+				<div style={{backgroundColor: color}}/>
+			</div>
 		</StyledConvertor>
 	)
 }

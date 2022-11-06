@@ -7,10 +7,8 @@ const StyledColorSample = styled.section`
   gap: 15px 30px;
   grid-auto-flow: row;
 
-	h3{
+	h2{
 		color: #5c6b77;
-		font-weight: 600;
-		font-size: 22px;
 		text-align: center;
 	}
 
