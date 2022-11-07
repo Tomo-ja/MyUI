@@ -1,8 +1,11 @@
 import React from 'react'
+import { StyledMain } from '../../components/generator/boxShadow'
 
 const BoxShadow = () => {
 	return (
-		<div>BoxShadow</div>
+		<StyledMain>
+			<h1>Box Shadow</h1>
+		</StyledMain>
 	)
 }
 

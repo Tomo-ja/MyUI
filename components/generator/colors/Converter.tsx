@@ -107,6 +107,7 @@ const Convertor = () => {
 	}
 
 	const copyColor = (type: Option) => {
+		// TODO: pop up when it's copied
 		switch(type) {
 			case Option.hex: 
 				navigator.clipboard.writeText(hexRef.current!.value)
